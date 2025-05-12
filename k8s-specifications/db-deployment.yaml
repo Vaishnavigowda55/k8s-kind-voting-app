@@ -32,7 +32,7 @@ spec:
         readinessProbe:
           tcpSocket:
             port: 5432
-          initialDelaySeconds: 10
+          initialDelaySeconds: 15
       volumes:
       - name: db-data
         emptyDir: {} 
